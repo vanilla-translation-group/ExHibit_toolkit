@@ -27,7 +27,8 @@ Interceptor.attach(Module.getExportByName("kernel32.dll", "LoadLibraryExA"), {
                 Interceptor.attach(ptr(insn.opStr), {
                     onEnter() {
                         if (counter++ > 0) {
-                            if (counter == 2) send("Keys saved to key_def.bin and key.bin");
+                            send("Keys saved to key_def.bin and key.bin");
+                            Interceptor.detachAll();
                             return;
                         }
                         keys[counter].write(this.context.ecx.add(4).readByteArray(1028));

@@ -6,7 +6,7 @@ import csv
 DEBUG = False
 
 if __name__ == "__main__":
-    if len(sys.argv) < 3:
+    if len(sys.argv) < 4:
         print("USAGE: textedit.py script.rld encoding dialog.txt")
         print("Extract text if dialog.txt does not exist; Reinsert text if it exists")
         exit(1)
