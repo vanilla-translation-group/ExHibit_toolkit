@@ -1,0 +1,40 @@
+; ---------------------------------------------------------------------
+.value
+; ---------------------------------------------------------------------
+0	134		; GB2312_CHARSET
+1	1		; FIXED_PITCH
+2	1		; VARIABLE_PITCH
+; ---------------------------------------------------------------------
+.message
+; ---------------------------------------------------------------------
+0	
+1	Microsoft YaHei			; for direct font settings. variable gothic font name.
+2	Microsoft YaHei			; for direct font settings. fixed gothic font name.
+3	Microsoft YaHei			; for direct font settings. fixed mincho font name.
+4	Microsoft YaHei			; for direct font settings. variable mincho font name.
+5	1,Microsoft YaHei,*		; for action252. replace base font name.
+;
+6	Microsoft YaHei			; default font name (post VISTA)
+7	Microsoft YaHei			; default font name (pre  VISTA)
+;8	
+9	标准字体
+;	-------- open url
+10	即将访问 %1。
+;	-------- ChooseFontProc
+11	标准
+12	选择用于显示对话的字体。只列出 TrueTypeFont。另外【0xC00000】能够确保在游戏中正常工作的只有游戏标准字体【-1】。
+13	清除字体设置，【0xC00000】恢复游戏标准字体【-1】。
+14	用现在选择的字体显示对话。
+15	取消执行。不进行字体替换。
+;	-------- def shortcut
+16	长按（左）
+17	长按（右）
+18	鼠标手势已在设置中被禁用。
+19	长按已在设置中被禁用。
+;	-------- 行頭禁則
+20	"。、」』】）]｝－―ー‥…！？～"'”’.,)}]
+;21
+;       --------
+22	字体加载失败：%1
+23	要初始化已被修改的消息数据吗？
+24	已修改的消息数据

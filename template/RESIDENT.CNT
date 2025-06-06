@@ -1,0 +1,40 @@
+; ---------------------------------------------------------------------
+.value
+; ---------------------------------------------------------------------
+0	134		; GB2312_CHARSET
+1	1		; FIXED_PITCH
+2	1		; VARIABLE_PITCH
+; ---------------------------------------------------------------------
+.message
+; ---------------------------------------------------------------------
+0	
+1	Microsoft JhengHei			; for direct font settings. variable gothic font name.
+2	Microsoft JhengHei			; for direct font settings. fixed gothic font name.
+3	Microsoft JhengHei			; for direct font settings. fixed mincho font name.
+4	Microsoft JhengHei			; for direct font settings. variable mincho font name.
+5	1,Microsoft JhengHei,*			; for action252. replace base font name.
+;
+6	Microsoft JhengHei			; default font name (post VISTA)
+7	Microsoft JhengHei			; default font name (pre  VISTA)
+;8	
+9	標準字體
+;	-------- open url
+10	即將訪問 %1。
+;	-------- ChooseFontProc
+11	標準
+12	選擇用於顯示對話的字體。只列出 TrueTypeFont。另外【0xC00000】能夠確保在遊戲中正常工作的只有遊戲標準字體【-1】。
+13	清除字體設置，【0xC00000】恢復遊戲標準字體【-1】。
+14	用現在選擇的字體顯示對話。
+15	取消執行。不進行字體替換。
+;	-------- def shortcut
+16	長按（左）
+17	長按（右）
+18	鼠標手勢已在設置中被禁用。
+19	長按已在設置中被禁用。
+;	-------- 行頭禁則
+20	"。、」』】）]｝－―ー‥…！？～"'”’.,)}]
+;21
+;       --------
+22	字體加載失敗：%1
+23	要初始化已被修改的消息數據嗎？
+24	已修改的消息數據
