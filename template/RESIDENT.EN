@@ -11,7 +11,7 @@
 1	Arial				; for direct font settings. variable gothic font name.
 2	Arial				; for direct font settings. fixed gothic font name.
 3	Times New Roman			; for direct font settings. fixed mincho font name.
-4	Microsoft YaHei			; for direct font settings. variable mincho font name.
+4	Times New Roman			; for direct font settings. variable mincho font name.
 5	2,arial,tahoma,*		; for action252. replace base font name.
 ;
 6	Arial				; default font name (post VISTA)
