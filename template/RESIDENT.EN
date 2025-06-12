@@ -1,0 +1,38 @@
+; ---------------------------------------------------------------------
+.value
+; ---------------------------------------------------------------------
+0	0		; ANSI_CHARSET
+1	2		; FIXED_PITCH
+2	2		; VARIABLE_PITCH
+; ---------------------------------------------------------------------
+.message
+; ---------------------------------------------------------------------
+0	
+1	Arial				; for direct font settings. variable gothic font name.
+2	Arial				; for direct font settings. fixed gothic font name.
+3	Times New Roman			; for direct font settings. fixed mincho font name.
+4	Microsoft YaHei			; for direct font settings. variable mincho font name.
+5	2,arial,tahoma,*		; for action252. replace base font name.
+;
+6	Arial				; default font name (post VISTA)
+7	Arial				; default font name (pre  VISTA)
+;8	
+9	default font
+;	-------- open url
+10	You are going to access "%1".
+;	-------- ChooseFontProc
+11	default
+12	Please select a font that you want to display message in. Use other font than the default font of the game is not guaranteed to work.
+13	Clear font setting and use the default font of the game.
+14	Message will be displayed in the font that is currently selected.
+15	Cancel the font changes. Font is not changed.
+;	-------- def shortcut
+16	LongPush L
+17	LongPush R
+18	Mouse gesture is disabled by settings.
+19	Long push is disabled by settings.
+;20
+;21
+22	Failed to load font: %1
+23	Do you want to initialize modified message data?
+24	Modified message data

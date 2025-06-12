@@ -13,10 +13,7 @@ if __name__ == "__main__":
     p = pathlib.Path(sys.argv[1])
     with open(p, "rb") as f:
         content = bytearray(f.read())
-        if content[:4] != b"RLD\0"[::-1]:
-            plaintext = True
-        else:
-            plaintext = False
+        plaintext = content[:4] != b"RLD\0"[::-1]
 
     specific_file = p.stem.startswith("backlog.") if plaintext else p.stem == "def"
     i18n = sys.argv[2].lower() if len(sys.argv) > 2 else "cns"
